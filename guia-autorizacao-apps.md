@@ -75,10 +75,10 @@ Quando o usuário, consumidor da aplicação, precisar autorizar a aplicação n
 Dessa forma, um exemplo válido de URL para a qual o usuário deve ser redirecionado para autorizar a aplicação seria:
 
 ```
-https://id.magalu.com/oauth/auth?response_type=code
-	&client_id=minha-aplicacao
-	&redirect_uri=https://minha-redirect-uri.dev
-	&scope=openid
+https://id.magalu.com/oauth/auth?response_type=code \
+	&client_id=minha-aplicacao \
+	&redirect_uri=https://minha-redirect-uri.dev \
+	&scope=openid \
 	&state=xyz
 ```
 
